@@ -4,10 +4,8 @@ export default defineEventHandler(() => {
   return {
     code: 200,
     data: {
-      swipers: [],
-      'swiper-projects': [],
-      projects: [],
-      courses: []
-    }
+      swipers: []
+    },
+    message: '请求成功'
   }
 })

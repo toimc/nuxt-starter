@@ -29,21 +29,4 @@ class: "w-full px-4"
 ---
 ::
 
-<!-- ![img](https://static.www.toimc.com/blog/picgo/2023/06/19/swiper1-8a7d25.webp)
-
-![img](https://static.www.toimc.com/blog/picgo/2023/06/19/swiper2-d98e98.webp)
-
-![img](https://static.www.toimc.com/blog/picgo/2023/06/19/swiper3-fc8015.webp)
-
-![img](https://static.www.toimc.com/blog/picgo/2023/06/19/swiper4-19130b.webp) -->
-
-
-## **项目介绍**
-![img](https://static.www.toimc.com/blog/picgo/2023/06/19/section4-main-item1-34f452.webp)
-
-![img](https://static.www.toimc.com/blog/picgo/2023/06/19/section4-main-item5-f2d50c.webp)
-
-## 技术架构
-
-![img](https://static.www.toimc.com/blog/picgo/2023/06/19/section4-main-item6-165354.webp)
 </Container>
