@@ -19,3 +19,9 @@ onBeforeMount(async () => {
   // }, 5000)
 })
 </script>
+<style>
+html.dark {
+  background: #222;
+  color: white;
+}
+</style>

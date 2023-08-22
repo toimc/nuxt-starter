@@ -11,8 +11,14 @@ export default defineNuxtConfig({
     '@pinia-plugin-persistedstate/nuxt',
     '@unocss/nuxt',
     '@vueuse/nuxt',
-    '@vite-pwa/nuxt'
+    '@vite-pwa/nuxt',
+    '@nuxtjs/color-mode'
   ],
+  colorMode: {
+    preference: 'system',
+    fallback: 'light',
+    classSuffix: ''
+  },
   pinia: {
     autoImports: ['defineStore']
   },
