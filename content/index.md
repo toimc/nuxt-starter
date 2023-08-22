@@ -1,8 +1,8 @@
-# hello nuxt
+# 集成`nuxt-content`
 
 ::card
-这个是card的slot内容1
+可以套用Vue Component
   ::card
-    这个是card的slot内容
+    这是嵌套组件的使用
   ::
 ::

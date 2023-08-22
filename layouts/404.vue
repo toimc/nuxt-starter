@@ -1,12 +1,7 @@
 <template>
   <div class="flex flex-col min-h-100vh">
-    <div class="mx-auto">[Layout: 404]</div>
-    <Container>
-      <NuxtLink class="mr-4 text-dark-1" to="/">Home</NuxtLink>
-      <NuxtLink class="mr-4 text-dark-1" to="/study">Sub</NuxtLink>
-      <NuxtLink class="mr-4 text-dark-1" to="/study/test">Sub+Markdown</NuxtLink>
-      <NuxtLink class="text-dark-1" to="/404">404 Layout</NuxtLink>
-    </Container>
+    <div class="mx-auto my-4">[Layout: 404]</div>
+    <Menu></Menu>
     <Container class="flex-col">
       <h1>404 Page</h1>
       <NuxtPage></NuxtPage>

@@ -1,6 +1,6 @@
 <template>
   <div class="pb-10">
-    <ContentDoc></ContentDoc>
+    <ContentDoc class="text-center"></ContentDoc>
   </div>
 </template>
 
