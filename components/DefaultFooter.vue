@@ -1,7 +1,7 @@
 <template>
   <div class="text-coolgray-400 text-lg py-4">
     <Container class="flex-col">
-      [route: {{ $route.name }}]
+      [route: {{ $route.name }} - params: {{ $route.params }}]
       <!-- 菜单 -->
       <div class="my-4 w-full"></div>
       <!-- ICP备案信息 -->
@@ -12,7 +12,6 @@
           {{ icp }}
         </a>
       </div>
-      <!-- http://www.beian.gov.cn/ -->
     </Container>
   </div>
 </template>
@@ -46,12 +45,6 @@ withDefaults(defineProps<FootItem>(), {
     email: 'admin@wayearn.com'
   })
 })
-// {
-// icp: {
-//   type: String,
-//   default: ''
-// },
-// }
 </script>
 
 <style scoped>

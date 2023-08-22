@@ -4,7 +4,8 @@
     <Container>
       <NuxtLink class="mr-4 text-dark-1" to="/">Home</NuxtLink>
       <NuxtLink class="mr-4 text-dark-1" to="/study">Sub</NuxtLink>
-      <NuxtLink class="text-dark-1" to="/study/test">Sub+Markdown</NuxtLink>
+      <NuxtLink class="mr-4 text-dark-1" to="/study/test">Sub+Markdown</NuxtLink>
+      <NuxtLink class="text-dark-1" to="/404">404 Layout</NuxtLink>
     </Container>
     <NuxtPage></NuxtPage>
     <div>

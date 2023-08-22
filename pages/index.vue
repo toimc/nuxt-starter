@@ -1,6 +1,6 @@
 <template>
   <div class="pb-15">
-    <Container>
+    <Container class="flex-col">
       <!-- 标题 -->
       <div class="py-4">
         <div class="text-2xl">“</div>
@@ -15,6 +15,7 @@
           </div>
         </div>
       </div>
+      <ContentDoc></ContentDoc>
     </Container>
   </div>
 </template>
