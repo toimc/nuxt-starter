@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-100">
+  <div class="bg-gray-100 dark:bg-gray-unset">
     <Container>
       <!-- 课程详情 -->
       <div class="w-full flex my-4 justify-center">

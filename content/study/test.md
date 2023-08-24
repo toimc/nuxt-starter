@@ -1,8 +1,8 @@
 <Container class="flex-col">
 
-# 项目详情页示例
+# Markdown Content内容
 
-## 行业背景
+## 示例Promps传参
 
 ::MarkdownComponent
 ---

@@ -31,7 +31,7 @@ export default defineNuxtConfig({
       }
     }
   },
-  css: ['@unocss/reset/tailwind.css'],
+  css: ['@unocss/reset/tailwind.css', '@/styles/main.scss'],
   pwa: {
     registerType: 'autoUpdate',
     manifest: {
