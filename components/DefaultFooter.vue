@@ -7,10 +7,6 @@
       <!-- ICP备案信息 -->
       <div class="flex w-full justify-center">
         Copyright © {{ copyRight }} 2022-{{ new Date().getFullYear() }}
-        <a href="https://beian.miit.gov.cn/" target="_blank" class="flex pl-2 items-center">
-          <i class="w-4 h-4 bg-contain inline-block mr-2 bg-center mr-2"></i>
-          {{ icp }}
-        </a>
       </div>
     </Container>
   </div>
