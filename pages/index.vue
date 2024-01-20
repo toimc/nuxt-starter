@@ -1,6 +1,12 @@
 <template>
   <div class="pb-15">
     <Container class="flex-col">
+      <div>store: {{ store.someState }}-{{ store.count }}</div>
+      <div class="flex">
+        <div class="px-4 py-2 bg-sky-500 text-white rounded cursor-pointer" @click="store.increment()">Button +1</div>
+        <div class="px-4 py-2 bg-sky-500 text-white rounded cursor-pointer ml-4" @click="store.decrement()">Button -1
+        </div>
+      </div>
       <!-- 标题 -->
       <div class="py-4">
         <div class="text-2xl">“</div>
@@ -20,6 +26,8 @@
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+const store = useMain()
+</script>
 
 <style scoped lang="scss"></style>

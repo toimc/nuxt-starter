@@ -20,7 +20,8 @@ export default defineNuxtConfig({
     classSuffix: ''
   },
   pinia: {
-    autoImports: ['defineStore']
+    // autoImports: ['defineStore']
+    storesDirs: ['stores/**']
   },
   vite: {
     vue: {
