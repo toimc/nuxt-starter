@@ -4,7 +4,7 @@
     <Menu></Menu>
     <Container class="flex-col">
       <h1>404 Page</h1>
-      <NuxtPage></NuxtPage>
+      <slot></slot>
       <button @click="router.back()">返回</button>
     </Container>
     <div>
