@@ -4,7 +4,13 @@ export default defineNuxtConfig({
   runtimeConfig: {
     // env ->process.env.NODE_ENV
   },
-  devtools: { enabled: true },
+  devtools: {
+    enabled: true,
+
+    timeline: {
+      enabled: true
+    }
+  },
   alias: {},
   modules: [
     '@nuxt/content',
