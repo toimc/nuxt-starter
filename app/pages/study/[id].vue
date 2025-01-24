@@ -16,7 +16,9 @@
 <script setup lang="ts">
 const activeIndex = ref(0)
 
+
 provide('activeIndex', activeIndex)
+
 </script>
 
 <style scoped></style>

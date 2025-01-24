@@ -1,13 +1,18 @@
 <template>
-  <div>
-    <NuxtLayout>
-      <NuxtPage />
-    </NuxtLayout>
-    <VitePwaManifest />
-  </div>
+  <NuxtLayout>
+    <NuxtPage />
+  </NuxtLayout>
+  <VitePwaManifest />
 </template>
 
 <script setup lang="ts">
+import { appName } from './constants'
+
+useHead({
+  title: appName,
+})
+
+
 // const { $pwa } = useNuxtApp()
 
 onBeforeMount(async () => {
@@ -19,7 +24,16 @@ onBeforeMount(async () => {
   // }, 5000)
 })
 </script>
+
 <style>
+html,
+body,
+#__nuxt {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
 html.dark {
   background: #222;
   color: white;
